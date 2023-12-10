@@ -57,9 +57,9 @@ def get_report(cipher):
 #####################################################################
 def main():
 
-    the_cipher = example.Example() # TODO: replace with your cipher class
+    rc4_cipher = cipher.Cipher() 
 
-    get_report(the_cipher)  # generate the report
+    get_report(rc4_cipher)  # generate the report
 
 
 if __name__ == "__main__":
